@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    width: 99.88%;
+    height: 500px;
+    background-image: url("../Img/background-01.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 1px;
+}
+header nav {
+    background-color: rgba(0, 0, 0, 0.329);
+    width: 90%;
+    margin: 10px auto;
+}
+header ul {
+    padding: 5px;
+}
+header nav ul li {
+    display: inline-block;
+    margin-left: 50px;
+    padding: 10px;
+    list-style: none;
+}
+header nav ul li a {
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    color: white;
+}
+header .header__text {
+    color: white;
+    padding: 10px;
+    width: 40%;
+}
+header .header__text h2 {
+    padding: 15px;
+}
+header .header__text .header__text--btn {
+    margin-top: 10px;
+    text-align: center;
+}
+
+header .header__text .header__text--btn button {
+    background-color: green;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+.content {
+    padding: 20px;
+    text-align: center;
+    margin-top: -110px;
+}
+.content .card {
+    display: inline-block;
+    width: 33%;
+    margin-top: 10px;
+}
+.content .card .card__content {
+    margin-top: 10px;
+}
+footer {
+    background-color: rgb(172, 172, 172);
+    padding: 10px;
+    text-align: center;
+}
+footer .footer__content {
+    display: inline-block;
+    width: 33%;
+}
+footer .footer__content .footer__icon {
+    font-size: 45px;
+    color: green;
+}
+footer .footer__content .footer__text h2 {
+    margin-bottom: 10px;
+}
+footer .footer__content .footer__text .footer__text--btn button {
+    background-color: green;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    width:20%;
+    color:white;
+    margin-top: 10px;
+}
